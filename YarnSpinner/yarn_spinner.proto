@@ -155,7 +155,8 @@ message Instruction {
     }
     message AddOptionInstruction {
         // The ID of the content that should be shown for this option.
-        string lineID = 1;
+//        string lineID = 1;
+        uint32 tagID = 100;
 
         // The instruction number in the current node to jump to if this option
         // is selected.
